@@ -144,6 +144,10 @@ int main(int argc, char** argv) {
 
     //      SHADER SETUP        //
     // Load shader source -- reads from current folder
+    std::cout << "Remember to run directly via executable in project!" << std::endl; // Reminder
+    if (!renderSpiral)
+        std::cout << "Spiral rendering mode can be activated with '-spiral' command line option." << std::endl;
+
     std::string vertexShaderSourceString2D = std::string(ShaderHelper::readShader(TYPE_VERTEX, DIMENSION_2D));
     std::string vertexShaderSourceString3D = std::string(ShaderHelper::readShader(TYPE_VERTEX, DIMENSION_3D));
     std::string fragmentShaderSourceString = std::string(ShaderHelper::readShader(TYPE_FRAGMENT));
