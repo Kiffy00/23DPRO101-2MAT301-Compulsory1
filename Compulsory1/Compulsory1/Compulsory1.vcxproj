@@ -141,6 +141,14 @@
     <ClInclude Include="ShaderHelper.h" />
     <ClInclude Include="Vertex.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependencies\libs\glfw3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\libs\glfw3.lib" />
+    <Library Include="Dependencies\libs\glfw3dll.lib" />
+    <Library Include="Dependencies\libs\glfw3_mt.lib" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

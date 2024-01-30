@@ -48,4 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependencies\libs\glfw3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\libs\glfw3.lib" />
+    <Library Include="Dependencies\libs\glfw3_mt.lib" />
+    <Library Include="Dependencies\libs\glfw3dll.lib" />
+  </ItemGroup>
 </Project>
